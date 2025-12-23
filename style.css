@@ -1,0 +1,20 @@
+#gridContainer{
+  display: flex;
+  width: 500px;
+  flex-wrap: wrap;
+  margin-top : 20px;
+
+  
+}
+
+.squareDivs{
+  width: 20px;
+  height: 20px;
+  /* background-color: whitesmoke; */
+  border: 1px solid black;   /* adds to size */
+  padding: 4px;  
+}
+/* 
+body {
+  background-color: #111111;
+} */
