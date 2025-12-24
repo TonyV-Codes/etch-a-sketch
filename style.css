@@ -1,20 +1,38 @@
-#gridContainer{
-  display: flex;
+/* #gridContainer{ */
+  /* display: flex;
   width: 500px;
+  height: 500px;
   flex-wrap: wrap;
-  margin-top : 20px;
+  margin-top : 20px; */
+/* } */
 
-  
+#gridContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  height: 500px;      /* fixed height */
+  margin: 0 auto;
+  border: 1px solid #ccc; /* optional, for debugging */ 
 }
+
+
 
 .squareDivs{
   width: 20px;
   height: 20px;
   /* background-color: whitesmoke; */
   border: 1px solid black;   /* adds to size */
-  padding: 4px;  
+  /* padding: 4px;   */
 }
 /* 
 body {
   background-color: #111111;
 } */
+
+.btnCtner {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+  gap: 10px;
+
+}
